@@ -29,7 +29,7 @@ RSpec.describe Test do
         end
     end
 
-    it "checks 'creates a new deck'" do
+    it "creates a new deck" do
         response = @test.class.get("/new/")
         expect(response.code.to_i).to be(200)
         json = JSON.parse(response.body)
