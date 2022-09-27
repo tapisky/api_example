@@ -1,4 +1,4 @@
-# This workflow is for running all Cypress tests when a Pull Request is created
+# This workflow is for running all api tests when a Pull Request is created
 
 name: CI RSpec Tests
 on: [pull_request]
