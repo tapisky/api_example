@@ -21,4 +21,4 @@ jobs:
           bundle install --jobs 4 --retry 3
 
       - name: Build and test with rspec
-        run: bundle exec rspec spec\api_test.rb --format doc
+        run: rspec ./spec/api_test.rb --format doc
